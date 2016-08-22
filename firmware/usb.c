@@ -273,7 +273,7 @@ static const struct usb_config_descriptor config = {
 #if DEBUG_LINK
 	.bNumInterfaces = 3,
 #else
-	.bNumInterfaces = 2,
+	.bNumInterfaces = 1,
 #endif
 	.bConfigurationValue = 1,
 	.iConfiguration = 0,
